@@ -8,7 +8,6 @@
     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-300: oklch(80.8% 0.114 19.571);
     --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-lime-500: oklch(76.8% 0.233 130.85);
     --color-lime-700: oklch(53.2% 0.157 131.589);
@@ -240,9 +239,6 @@
   .border-zinc-600 {
     border-color: var(--color-zinc-600);
   }
-  .bg-amber-500 {
-    background-color: var(--color-amber-500);
-  }
   .bg-lime-500 {
     background-color: var(--color-lime-500);
   }
@@ -273,10 +269,6 @@
   .font-serif {
     font-family: var(--font-serif);
   }
-  .text-3xl {
-    font-size: var(--text-3xl);
-    line-height: var(--tw-leading, var(--text-3xl--line-height));
-  }
   .text-xl {
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
@@ -288,10 +280,6 @@
   .leading-5 {
     --tw-leading: calc(var(--spacing) * 5);
     line-height: calc(var(--spacing) * 5);
-  }
-  .font-bold {
-    --tw-font-weight: var(--font-weight-bold);
-    font-weight: var(--font-weight-bold);
   }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
@@ -306,9 +294,6 @@
   }
   .text-zinc-800 {
     color: var(--color-zinc-800);
-  }
-  .underline {
-    text-decoration-line: underline;
   }
   .duration-200 {
     --tw-duration: 200ms;
