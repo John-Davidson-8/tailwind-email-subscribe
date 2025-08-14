@@ -8,7 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-300: oklch(80.8% 0.114 19.571);
-    --color-yellow-300: oklch(90.5% 0.182 98.111);
+    --color-amber-500: oklch(76.9% 0.188 70.08);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
     --font-weight-bold: 700;
@@ -162,8 +162,8 @@
   }
 }
 @layer utilities {
-  .bg-red-300 {
-    background-color: var(--color-red-300);
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
   }
   .text-3xl {
     font-size: var(--text-3xl);
